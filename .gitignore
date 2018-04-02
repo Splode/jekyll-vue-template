@@ -1,9 +1,10 @@
-# =============== Jekyll =======================
+# Vue
+dist
+
+# Jekyll
 _site
 .sass-cache
 .jekyll-metadata
-
-# ================ Windows =====================
 
 # Windows thumbnail cache files
 Thumbs.db
@@ -28,16 +29,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# ============== Visual Studio Code =================
+# Visual Studio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# ================= Mac OS ==================
-
-# General
+# Mac OS
 *.DS_Store
 .AppleDouble
 .LSOverride
