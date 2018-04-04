@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld'
 
 Vue.component('helloWorld', HelloWorld)
 
-const app = new Vue({
+/* eslint-disable no-new */
+new Vue({
   el: '#app'
 })
