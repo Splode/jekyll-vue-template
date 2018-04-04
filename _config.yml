@@ -45,3 +45,6 @@ exclude:
   - package.json
   - webpack.config.js
   - src
+  - .editorconfig
+  - .eslintignore
+  - .eslintrc.js
