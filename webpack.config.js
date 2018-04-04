@@ -18,6 +18,11 @@ module.exports = {
             scss: ['vue-style-loader', 'css-loader', 'sass-loader']
           }
         }
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
       }
     ]
   },
