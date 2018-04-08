@@ -28,7 +28,7 @@ $ bundle
 
 ## Usage
 
-Mount Vue components anywhere in your Jekyll pages, including layouts, markdown pages, or includes.
+The `src` directory contains the Vue application and its components. Create single file components and mount them anywhere in your Jekyll pages, including layouts, markdown pages, or includes.
 
 ### Development
 
@@ -66,22 +66,22 @@ $ bundle exec jekyll build
 
 ## Features
 
-- Support for Vue single file components
-- Vendor code-splitting with webpack 4
-- Cache control for bundled assets using webpack 4
-- Sass language support in Vue single file components
+* Support for Vue single file components
+* Vendor code-splitting with webpack 4
+* Cache control for bundled assets using webpack 4
+* Sass language support in Vue single file components
 
 ## Minimal and Complete Versions
 
-jekyll-vue-template has two branches, each with varying levels of complexity and features. The `master` branch is the full-featured template with webpack cache-control, code-splitting, babel, and eslint. The `minimal` branch is a basic setup that uses webpack bundling and Vue single file component compiling. 
+jekyll-vue-template has two branches, each with varying levels of complexity and features. The `master` branch is the full-featured template with webpack cache-control, code-splitting, babel, and eslint. The `minimal` branch is a basic setup that uses webpack bundling and Vue single file component compiling.
 
 ## Technical
 
 jekyll-vue-template uses the following projects as critical workflow components:
 
-- **Jekyll** `v3.7.3`
-- **Vue** `v2.5.16`
-- **webpack** `v4.4.1`
+* **Jekyll** `v3.7.3`
+* **Vue** `v2.5.16`
+* **webpack** `v4.4.1`
 
 ## License
 
