@@ -46,8 +46,8 @@ $ npm run watch
 
 After assets have been built, spool up a development server with Jekyll:
 
-```
-bundle exec jekyll s
+```console
+$ bundle exec jekyll s
 ```
 
 ### Production
@@ -60,7 +60,7 @@ $ npm run build
 
 After assets have been built, generate the static files with Jekyll:
 
-```
+```console
 $ bundle exec jekyll build
 ```
 
