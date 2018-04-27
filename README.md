@@ -79,7 +79,7 @@ jekyll-vue-template has two branches, each with varying levels of complexity and
 
 jekyll-vue-template uses the following projects as critical workflow components:
 
-* **Jekyll** `v3.7.3`
+* **Jekyll** `v3.8.0`
 * **Vue** `v2.5.16`
 * **webpack** `v4.6.0`
 
