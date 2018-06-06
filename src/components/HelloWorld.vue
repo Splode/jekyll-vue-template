@@ -8,9 +8,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+$gray: darkslategrey;
 h1 {
-  color: darkslategrey;
+  color: $gray;
   font-size: 2rem;
 }
 </style>
