@@ -1,6 +1,6 @@
 {
   "name": "jekyll-vue-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A starter template for Jekyll projects with Vue.js and Vue Single File Components, complete with webpack.",
   "main": "index.js",
   "scripts": {
