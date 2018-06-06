@@ -81,7 +81,7 @@ jekyll-vue-template uses the following projects as critical workflow components:
 
 * **Jekyll** `v3.8.0`
 * **Vue** `v2.5.16`
-* **webpack** `v4.6.0`
+* **webpack** `v4.11.0`
 
 ## License
 
