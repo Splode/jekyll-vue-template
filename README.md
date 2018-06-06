@@ -8,6 +8,8 @@
 
 ## Overview
 
+> NOTE ⚠ This branch is deprecated and no longer maintained.
+
 jekyll-vue-template is an opinionated, but minimal boilerplate for creating statically generated sites with Jekyll and Vue.js. It supports Vue single file components and webpack optimizations including code-splitting and cache-control.
 
 ## Installation
