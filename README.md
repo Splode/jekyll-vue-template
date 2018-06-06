@@ -10,6 +10,15 @@
 
 jekyll-vue-template is an opinionated, but minimal boilerplate for creating statically generated sites with Jekyll and Vue.js. It supports Vue single file components and webpack optimizations including code-splitting and cache-control.
 
+## Features
+
+* Support for Vue single file components
+* Vendor code-splitting with webpack 4
+* Cache control for bundled assets using webpack 4
+* Babel transpilation
+* Sass language support in Vue single file components
+* eslint with Vue style guide plugin
+
 ## Installation
 
 The easiest way to use the jekyll-vue-template is to clone or fork this repo, then customize it to suit your needs.
@@ -63,17 +72,6 @@ After assets have been built, generate the static files with Jekyll:
 ```console
 $ bundle exec jekyll build
 ```
-
-## Features
-
-* Support for Vue single file components
-* Vendor code-splitting with webpack 4
-* Cache control for bundled assets using webpack 4
-* Sass language support in Vue single file components
-
-## Minimal and Complete Versions
-
-jekyll-vue-template has two branches, each with varying levels of complexity and features. The `master` branch is the full-featured template with webpack cache-control, code-splitting, babel, and eslint. The `minimal` branch is a basic setup that uses webpack bundling and Vue single file component compiling.
 
 ## Technical
 
