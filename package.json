@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "jekyll:watch": "bundle exec jekyll build --watch --incremental",
+    "jekyll:build": "bundle exec jekyll build",
+    "serve": "browser-sync start --config browser-sync.js",
+    "start": "npm run jekyll:watch & npm run serve",
     "watch": "cross-env NODE_ENV=development webpack --watch"
   },
   "keywords": [
@@ -23,6 +27,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
+    "browser-sync": "^2.24.5",
     "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.1.6",
     "css-loader": "^0.28.11",
