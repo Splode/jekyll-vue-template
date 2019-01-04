@@ -20,31 +20,31 @@
   "author": "Christopher Murphy",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.21"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
-    "browser-sync": "^2.24.5",
+    "browser-sync": "^2.26.3",
     "clean-webpack-plugin": "^0.1.19",
-    "cross-env": "^5.1.6",
+    "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "eslint-plugin-vue": "^4.5.0",
+    "eslint-plugin-vue": "^4.7.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.8.3",
     "sass-loader": "^6.0.7",
-    "vue-loader": "^15.2.4",
-    "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.11.1",
-    "webpack-cli": "^3.0.2"
+    "vue-loader": "^15.5.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
   }
 }
