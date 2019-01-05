@@ -18,6 +18,7 @@ jekyll-vue-template is an opinionated, but minimal boilerplate for creating stat
 * Babel transpilation
 * Sass language support in Vue single file components
 * eslint with Vue style guide plugin
+* Hot-reloading via BrowserSync
 
 ## Installation
 
@@ -25,13 +26,13 @@ The easiest way to use the jekyll-vue-template is to clone or fork this repo, th
 
 ### Install npm Packages
 
-```bash
+```console
 $ npm i
 ```
 
 ### Install Ruby Gems
 
-```bash
+```console
 $ bundle
 ```
 
@@ -43,13 +44,13 @@ The `src` directory contains the Vue application and its components. Create sing
 
 To run the jekyll-vue-template in a development environment, first compile assets with webpack:
 
-```bash
+```console
 $ npm run dev
 ```
 
 Alternatively you can use the `watch` command to watch for changes in your webpack-managed assets and automatically recompile.
 
-```bash
+```console
 $ npm run watch
 ```
 
@@ -63,7 +64,7 @@ $ bundle exec jekyll s
 
 To build for production, first compile webpack assets:
 
-```bash
+```console
 $ npm run build
 ```
 
@@ -77,9 +78,9 @@ $ bundle exec jekyll build
 
 jekyll-vue-template uses the following projects as critical workflow components:
 
-* **Jekyll** `v3.8.0`
-* **Vue** `v2.5.16`
-* **webpack** `v4.11.1`
+* **Jekyll** `v3.8.5`
+* **Vue** `v2.5.21`
+* **webpack** `v4.28.3`
 
 ## License
 
