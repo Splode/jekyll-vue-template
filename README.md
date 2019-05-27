@@ -12,13 +12,13 @@ jekyll-vue-template is an opinionated, but minimal boilerplate for creating stat
 
 ## Features
 
-* Support for Vue single file components
-* Vendor code-splitting with webpack 4
-* Cache control for bundled assets using webpack 4
-* Babel transpilation
-* Sass language support in Vue single file components
-* eslint with Vue style guide plugin
-* Hot-reloading via BrowserSync
+- Support for Vue single file components
+- Vendor code-splitting with webpack 4
+- Cache control for bundled assets using webpack 4
+- Babel transpilation
+- Sass language support in Vue single file components
+- eslint with Vue style guide plugin
+- Hot-reloading via BrowserSync
 
 ## Installation
 
@@ -27,13 +27,13 @@ The easiest way to use the jekyll-vue-template is to clone or fork this repo, th
 ### Install npm Packages
 
 ```console
-$ npm i
+npm i
 ```
 
 ### Install Ruby Gems
 
 ```console
-$ bundle
+bundle
 ```
 
 ## Usage
@@ -45,19 +45,19 @@ The `src` directory contains the Vue application and its components. Create sing
 To run the jekyll-vue-template in a development environment, first compile assets with webpack:
 
 ```console
-$ npm run dev
+npm run dev
 ```
 
 Alternatively you can use the `watch` command to watch for changes in your webpack-managed assets and automatically recompile.
 
 ```console
-$ npm run watch
+npm run watch
 ```
 
 After assets have been built, spool up a development server with Jekyll:
 
 ```console
-$ bundle exec jekyll s
+bundle exec jekyll s
 ```
 
 ### Production
@@ -65,22 +65,22 @@ $ bundle exec jekyll s
 To build for production, first compile webpack assets:
 
 ```console
-$ npm run build
+npm run build
 ```
 
 After assets have been built, generate the static files with Jekyll:
 
 ```console
-$ bundle exec jekyll build
+bundle exec jekyll build
 ```
 
 ## Technical
 
 jekyll-vue-template uses the following projects as critical workflow components:
 
-* **Jekyll** `v3.8.5`
-* **Vue** `v2.5.21`
-* **webpack** `v4.28.3`
+- **Jekyll** `v3.8.5`
+- **Vue** `v2.6.10`
+- **webpack** `v4.32.2`
 
 ## License
 
