@@ -1,7 +1,6 @@
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 const path = require('path')
 const webpack = require('webpack') // eslint-disable-line
-// const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
