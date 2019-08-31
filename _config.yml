@@ -43,7 +43,7 @@ exclude:
   - vendor/ruby/
   - package.lock.json
   - package.json
-  - webpack.config.js
+  - webpack.config.babel.js
   - src
   - .editorconfig
   - .eslintignore
