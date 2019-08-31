@@ -78,9 +78,9 @@ bundle exec jekyll build
 
 jekyll-vue-template uses the following projects as critical workflow components:
 
-- **Jekyll** `v3.8.5`
+- **Jekyll** `v4.0.0`
 - **Vue** `v2.6.10`
-- **webpack** `v4.33.0`
+- **webpack** `v4.39.3`
 
 ## License
 
