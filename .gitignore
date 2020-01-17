@@ -5,7 +5,11 @@ dist
 _site
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 _includes/scripts.html
+
+# Vagrant
+.vagrant
 
 # Windows thumbnail cache files
 Thumbs.db
